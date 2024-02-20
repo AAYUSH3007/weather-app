@@ -1,0 +1,70 @@
+html{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-weight: bolder; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+}
+
+/* Description section */
+.description {
+  width: 80%;
+  float: left;
+  padding: 20px;
+}
+
+/* Weather button */
+.weather-button {
+  float: right;
+  background-color: #0074d9;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.bottom{
+  
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+  
+  }
+/* Footer styles */
+footer{
+  bottom: 0;
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
+
+

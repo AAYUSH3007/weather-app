@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Alert App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .navbar-brand img {
+            height: 30px; 
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+     <!-- the nav bar was taken from bootstrap docs-https://getbootstrap.com/docs/5.3/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/smart_beach_logo.jpg" alt="Small Logo">
+                Weather Alert
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Weather Alert</a></li>
+                            <li><a class="dropdown-item" href="login-page.html">LogIn/SignUp</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="alert-box">
+                    Alert!
+                </div>
+                
+            </div>
+            <div class="col-md-8">
+                <img src="/images/istockphoto-1069390532-1024x1024.jpg" alt="nature-image" class="img-fluid main-image"/>
+            </div>
+            <div class="col-md-2">
+                <div class="beach-condition"></div>
+            </div>
+        </div>
+<br> 
+        <div class="row weather-factors-row">
+            <!-- Weather factors boxes here -->
+            <div class="col weather-factor-box">Weather Factor 1</div>
+            <div class="col weather-factor-box">Weather Factor 2</div>
+            <div class="col weather-factor-box">Weather Factor 3</div>
+            <div class="col weather-factor-box">Weather Factor 4</div>
+            <div class="col weather-factor-box">Weather Factor 5</div>
+            <div class="col weather-factor-box">Weather Factor 6</div>
+            <div class="col weather-factor-box">Weather Factor 7</div>
+        </div>
+        <div class="bottom">
+            Weather Desctiption (How the day is going to be)
+        </div>
+
+    </div>
+    <footer> &copy; All rights reserved: <br> BITS CODING GROUP</footer>
+</body>
+</html>
